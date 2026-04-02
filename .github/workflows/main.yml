@@ -1,0 +1,11 @@
+name: Car Rental Workflow
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print message
+      run: echo "Car Rental System Workflow Running"
